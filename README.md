@@ -16,4 +16,7 @@ Website: https://escola-iac.cbpf.br/
 
 - `data/`: pasta com dados simulados de levantamentos de galáxias
 - `Cls_LSS_aula.ipynb`: notebook explicando previsões teóricas para observáveis relacionados a levantamentos de galáxias (Guilherme)
-- `CMB_aula.ipynb/`: notebook explicando previsões teóricas para observáveis relacionados a levantamentos de galáxias (Guilherme)
+- `CMB_aula.ipynb`: notebook explicando previsões teóricas para observáveis relacionados à CMB (Guilherme)
+- `MCMC_supernovas.ipynb`: notebook explicando técnicas de MCMC para a análise de distâncias de luminosidade de supernovas tipo Ia (João)
+- `MCMC_clustering.ipynb`: notebook explicando técnicas de MCMC para a análise de levantamentos de distribuição de galáxias (João)
+- `MCMC_shear.ipynb`: notebook explicando técnicas de MCMC para a análise levantamentos de elipticidades de galáxias (João)
