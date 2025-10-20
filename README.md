@@ -4,6 +4,7 @@
 Instrutores: Gabriela Marques, Guilherme Brando, João Rebouças
 
 Website: https://escola-iac.cbpf.br/
+Ementa: https://escola-iac.cbpf.br/ementa.pdf
 
 ## Objetivos
 
@@ -20,3 +21,7 @@ Website: https://escola-iac.cbpf.br/
 - `MCMC_supernovas.ipynb`: notebook explicando técnicas de MCMC para a análise de distâncias de luminosidade de supernovas tipo Ia (João)
 - `MCMC_clustering.ipynb`: notebook explicando técnicas de MCMC para a análise de levantamentos de distribuição de galáxias (João)
 - `MCMC_shear.ipynb`: notebook explicando técnicas de MCMC para a análise levantamentos de elipticidades de galáxias (João)
+
+## Notes for developers:
+
+- galaxy bias = 1.5, scale CLASS output with 1.5**2
