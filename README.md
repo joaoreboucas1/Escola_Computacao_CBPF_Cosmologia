@@ -15,9 +15,16 @@ Ementa: https://escola-iac.cbpf.br/ementa.pdf
 
 ## Conteúdo
 
-- `data/`: pasta com dados simulados variados de levantamentos de galáxias e CMB
+- `data/`: pasta com dados simulados de levantamentos de galáxias
+- `Aula_1_Escola.ipynb`: notebook explicando FFT, power spectrum, noise, GRF sims, filters (Gabriela)
+
 - `Cls_LSS_aula.ipynb`: notebook explicando previsões teóricas para observáveis relacionados a levantamentos de galáxias (Guilherme)
 - `CMB_aula.ipynb`: notebook explicando previsões teóricas para observáveis relacionados à CMB (Guilherme)
 - `MCMC_supernovas.ipynb`: notebook explicando técnicas de MCMC para a análise de distâncias de luminosidade de supernovas tipo Ia (João)
 - `MCMC_clustering.ipynb`: notebook explicando técnicas de MCMC para a análise de levantamentos de distribuição de galáxias (João)
 - `MCMC_shear.ipynb`: notebook explicando técnicas de MCMC para a análise levantamentos de elipticidades de galáxias (João)
+
+## Notes: 
+As dependências para rodar os notebooks devem ser satisfeitas ao executar:
+`bash script_escola.sh`
+
