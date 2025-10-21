@@ -24,6 +24,11 @@ Ementa: https://escola-iac.cbpf.br/ementa.pdf
 - `MCMC_clustering.ipynb`: notebook explicando técnicas de MCMC para a análise de levantamentos de distribuição de galáxias (João)
 - `MCMC_shear.ipynb`: notebook explicando técnicas de MCMC para a análise levantamentos de elipticidades de galáxias (João)
 
+## Notes: 
+As dependências para rodar os notebooks devem ser satisfeitas ao executar:
+bash script_escola.sh
+
 ## Notes for developers:
 
 - galaxy bias = 1.5, scale CLASS output with 1.5**2
+
