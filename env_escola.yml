@@ -1,0 +1,56 @@
+name: escola_env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # ------------------------
+  # Python + pacotes básicos
+  # ------------------------
+  - python=3.12
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - astropy
+  - scikit-learn
+
+  # ------------------------
+  # Compilação e bibliotecas científicas
+  # ------------------------
+  - make
+  - cmake
+  - gcc_linux-64
+  - gxx_linux-64
+  - gsl
+  - fftw
+  - hdf5
+  # openmp não é um pacote conda separado — vem com o gcc_linux-64
+  # por isso removido da lista
+
+  # ------------------------
+  # Interface Python do CLASS
+  # ------------------------
+  - cython
+
+  # ------------------------
+  # Ferramentas de notebook (para aulas/demonstrações)
+  # ------------------------
+  - jupyterlab
+  - ipykernel
+  - notebook
+
+  # ------------------------
+  # Extras úteis
+  # ------------------------
+  - setuptools
+  - wheel
+
+  # ------------------------
+  # Pacotes instalados via pip
+  # ------------------------
+  - pip:
+      - tqdm
+      - sympy
+
